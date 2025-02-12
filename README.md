@@ -1,8 +1,8 @@
 # 📊 Análisis Exploratorio de Datos (EDA) - Titulados en Chile
 
-# Contexto
+En Chile, el acceso a la educación superior ha crecido significativamente en las últimas décadas. Cada vez más personas optan por continuar sus estudios después de la educación secundaria, lo que ha generado un aumento en la cantidad de titulados en universidades, institutos profesionales y centros de formación técnica. Este crecimiento plantea diversas interrogantes sobre la distribución de los titulados, la duración de los estudios, las diferencias entre instituciones y la inserción laboral de los egresados.
 
-Como sabemos en Chile el crecimiento de personas que estan entrando a la educacion superior ha aumentado considerablemente
+Ante esta realidad, resulta fundamental analizar los datos de los titulados para identificar tendencias, evaluar el impacto de las políticas educativas y comprender mejor la dinámica del sistema de educación superior en Chile.
 
 ## 📚 Descripción del Proyecto
 Este proyecto realiza un **Análisis Exploratorio de Datos (EDA)** sobre los titulados de educación superior en Chile.  
@@ -17,19 +17,16 @@ El objetivo principal es analizar tendencias y patrones en la titulación, respo
 ```
 📁 EDA_Titulados_Chile/  
  ├── 📄 README.md  *(Descripción del proyecto)*  
- ├── 📄 requirements.txt  *(Dependencias necesarias)*  
- ├── 📁 data/  *(Archivos de datos crudos y procesados)*  
- │   ├── titulados_chile.csv  
- │   └── titulados_limpios.csv  
+ ├── 📁 data/  *(Archivos de datos crudos, procesados y Esquema variables)*  
+ │   ├── ER titulados Ed.Superior 2007 - 2023, WEB.pdf  
+ │   └── titulados_2023.xlsx  
  ├── 📁 notebooks/  *(Códigos y análisis en Jupyter Notebook)*  
- │   ├── 01_EDA_Titulados.ipynb  
- │   └── 02_Visualizaciones.ipynb  
- ├── 📁 src/  *(Scripts de procesamiento y análisis de datos)*  
- │   ├── limpieza_datos.py  
- │   └── analisis_estadistico.py  
+ │   ├── TituladosChile2023.ipynb    
  ├── 📁 reports/  *(Resultados y gráficos generados)*  
- │   ├── resumen_EDA.html  
- │   └── visualizaciones.png  
+ │   ├── TituladosChile2023.html 
+ ├── 📁 src/  *(Scripts de procesamiento y análisis de datos en modo prueba)*  
+ │   ├── script_prruebas.py  
+
 ```
 
 ## 📊 Datos Utilizados
