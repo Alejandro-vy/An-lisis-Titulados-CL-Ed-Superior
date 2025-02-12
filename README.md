@@ -30,7 +30,7 @@ El objetivo principal es analizar tendencias y patrones en la titulación, respo
 ```
 
 ## 📊 Datos Utilizados
-- **Fuente:** [Nombre de la fuente de datos]  
+- **Fuente:** [titulados_2023]  
 - **Descripción:** Los datos contienen información sobre titulados en educación superior en Chile.  
 - **Principales variables:**  
   - `carrera`: Nombre de la carrera.  
@@ -38,15 +38,17 @@ El objetivo principal es analizar tendencias y patrones en la titulación, respo
   - `region`: Región donde se tituló.  
   - `edad_titulacion`: Edad al momento de titularse.  
   - `duracion_real`: Duración real de los estudios.  
-  - `duracion_teorica`: Duración teórica de la carrera.  
+  - `duracion_teorica`: Duración teórica de la carrera.
+
+  Para mayor información de las variables revisar el archivo **ER titulados Ed.Superior 2007 - 2023, WEB.pdf**
 
 ## 🛠️ Instalación y Configuración
 Para ejecutar el análisis en tu máquina, sigue estos pasos:
 
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/EDA_Titulados_Chile.git
-cd EDA_Titulados_Chile
+git clone https://github.com/Alejandro-vy/EDA-Titulados-CL-Ed-Superior.git
+cd EDA-Titulados-CL-Ed-Superior
 ```
 
 ### 2️⃣ Instalar dependencias
